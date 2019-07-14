@@ -1,6 +1,6 @@
 # My Portfolio  Project
 #### My portfolio-project, 14th of July 2019
-#### By me, Aline Nicole UWAMARIYA
+#### By Aline Nicole UWAMARIYA
 ## Description
 The project describes myself who i am as personalty with my background skills and some examples of the projects i did.
 ## Setup/Installation Requirements
