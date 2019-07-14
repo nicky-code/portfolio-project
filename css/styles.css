@@ -12,7 +12,7 @@ h1 {
 }
 h2 {
 	color: black;
-	font-size: 40px;
+	font-size: 47px;
 	font-style: italic;
 }
 nav {
@@ -21,28 +21,42 @@ nav {
 }
 .description {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-around;
+	position: relative;
+}
+
 }
 h3,
 h4,
 h5,
 h6 {
-	font-size: 40px;
+	font-size: 47px;
 	color: blue;
 	display: flex;
 	margin-top: 100px;
 	margin-left: 10px;
 	justify-content: space-around;
+	font-style: italic;
 }
 #test2 {
 	display: flex;
 	justify-content: space-between;
 }
-#back {
+#test2 > p {
+	font-size: 30px;
+	position: relative;
+	margin-left: 30%;
+	margin-bottom: auto;
+}
+#back > h5 {
 	display: flex;
+	font-size: 47px;
+	color: blue;
 }
 #back2 {
 	margin-top: 100px;
 	margin-left: 10px;
+	position: relative;
+	font-size: 20px;
 }
