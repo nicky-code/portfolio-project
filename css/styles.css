@@ -40,7 +40,7 @@ h4 {
 	font-style: italic;
 	color: blue;
 }
-.container h5 {
+#background h5 {
 	font-size: 30px;
 }
 #about-me {
@@ -67,7 +67,7 @@ h4 {
 	flex-direction: column;
 	justify-content: space-between;
 }
-.container {
+#background {
 	background: #e0ffff;
 	padding: 5px;
 	position: cover;
@@ -85,25 +85,34 @@ ul,
 ol {
 	font-size: 20px;
 }
-.project1 {
+#project {
+	background: mediumaquamarine;
+	padding: 5px;
+	position: cover;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	text-align: center;
 	display: flex;
-	flex-direction: row;
-	flex: wrap;
-	justify-content: space-aroud;
+}
+.project1 {
+	flex-direction: column;
+	justify-content: space-between;
 }
 .project2 {
-	display: flex;
-	flex-direction: row;
-	flex: wrap-reverse;
-	justify-content: space-around;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.project3 {
+	flex-direction: column;
+	justify-content: space-between;
 }
 #project h6 {
 	font-size: 47px;
 	text-align: center;
 	font-style: italic;
 }
-
-#project > img {
-	width: 30%;
-	height: 20%;
+.project1,
+.project2,
+.project3 {
+	padding: 10px;
 }
