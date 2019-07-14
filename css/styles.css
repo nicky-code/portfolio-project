@@ -24,10 +24,11 @@ nav {
 	justify-content: space-around;
 	position: relative;
 	float: left;
+	background: rgb(205, 231, 223);
 }
 h3 {
 	font-size: 47px;
-	color: blue;
+	color: violet;
 	display: flex;
 	margin-top: 100px;
 	margin-left: 10px;
@@ -38,13 +39,14 @@ h4 {
 	text-align: center;
 	font-size: 47px;
 	font-style: italic;
-	color: blue;
+	color: violet;
 }
 #background h5 {
 	font-size: 30px;
 }
 #about-me {
 	display: flex;
+	padding: 0px;
 }
 #talk {
 	width: 50%;
@@ -65,11 +67,10 @@ h4 {
 }
 #back2 {
 	flex-direction: column;
-	justify-content: space-between;
 }
 #background {
-	background: #e0ffff;
-	padding: 5px;
+	background: rgb(181, 235, 217);
+	padding: 0px;
 	position: cover;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 20px;
@@ -106,10 +107,11 @@ ol {
 	flex-direction: column;
 	justify-content: space-between;
 }
-#project h6 {
+h6 {
 	font-size: 47px;
 	text-align: center;
 	font-style: italic;
+	color: violet;
 }
 .project1,
 .project2,
