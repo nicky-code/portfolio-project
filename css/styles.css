@@ -1,120 +1,34 @@
-#main {
-	background-image: url("../images/background.jpg");
+.container{
+	font-family: 'Poiret One', cursive;
+}
+#main{
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/10/responsive-design-1200x601.jpg");
+	height: 470px;
 	background-size: cover;
-	height: 900px;
+	background-repeat: no-repeat;
+	margin-top: 10px;
 }
 h1 {
-	color: brown;
-	font-size: 55px;
-	font-family: Arial;
-	font-style: italic;
+	color:solid black;
+	font-size: 35px;
+	margin-top: 25px;
 }
-h2 {
+h3{
 	color: black;
-	font-size: 47px;
-	font-style: italic;
+	font-size: 25px;
 }
-nav {
-	font-style: italic;
-	font-size: 30px;
+p{
+	font-size: 22px;
 }
-.description {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	position: relative;
-	float: left;
-	background: rgb(205, 231, 223);
+#me{
+	padding: 25px;
+	margin-left: 200px;
 }
-h3 {
-	font-size: 47px;
-	color: violet;
-	display: flex;
-	margin-top: 100px;
-	margin-left: 10px;
-	justify-content: space-around;
-	font-style: italic;
+
+#pic{
+	margin-left: 870px;
+	margin-top: -200px;
 }
-h4 {
+h2{
 	text-align: center;
-	font-size: 47px;
-	font-style: italic;
-	color: violet;
-}
-#background h5 {
-	font-size: 30px;
-}
-#about-me {
-	display: flex;
-	padding: 0px;
-}
-#talk {
-	width: 50%;
-	padding: 0 10%;
-}
-#images {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-#back {
-	flex-direction: column;
-	justify-content: space-between;
-}
-#back1 {
-	flex-direction: column;
-	justify-content: space-between;
-}
-#back2 {
-	flex-direction: column;
-}
-#background {
-	background: rgb(181, 235, 217);
-	padding: 0px;
-	position: cover;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 20px;
-	text-align: center;
-	display: flex;
-}
-#back,
-#back1,
-#back2 {
-	padding: 10px;
-}
-ul,
-ol {
-	font-size: 20px;
-}
-#project {
-	background: mediumaquamarine;
-	padding: 5px;
-	position: cover;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 20px;
-	text-align: center;
-	display: flex;
-}
-.project1 {
-	flex-direction: column;
-	justify-content: space-between;
-}
-.project2 {
-	flex-direction: column;
-	justify-content: space-between;
-}
-.project3 {
-	flex-direction: column;
-	justify-content: space-between;
-}
-h6 {
-	font-size: 47px;
-	text-align: center;
-	font-style: italic;
-	color: violet;
-}
-.project1,
-.project2,
-.project3 {
-	padding: 10px;
 }
